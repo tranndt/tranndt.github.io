@@ -55,7 +55,9 @@
 .vg-page {
   position: relative;
   display: block;
-  padding: 80px 0;
+  padding: 50px 0;
+  /* margin: 50px 0; */
+  /* margin-bottom: 100px; */
   width: 100%;
   overflow: hidden;
 }
@@ -74,7 +76,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(62, 57, 57, 0.8);
+  /* background-color: rgba(62, 57, 57, 0.8); */
   z-index: -1;
 }
 
@@ -85,7 +87,7 @@
   width: 100%;
   padding-top: 6px;
   padding-bottom: 6px;
-  background-color: rgba(104, 102, 102, 0.8);
+  /* background-color: 343a40; */
   z-index: 99;
 }
 
@@ -113,8 +115,9 @@
 
 .page-home .badge {
   padding: 16px 24px;
-  background-color: rgba(239, 56, 36, 0.15);
-  color: #EF3724;
+  /* background-color: rgba(239, 56, 36, 0.15); */
+  background-color: #fd7e14;
+  /* color: #EF3724; */
   text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
   font-size: 16px;
   border-radius: 40px;
@@ -137,9 +140,13 @@
   z-index: 10;
 }
 
-
 .page-about {
   background-color: #fff;
+  width: 90%;
+  margin: auto; /* Center horizontally if width is less than 100% */
+  height: 90%;
+  margin-bottom: 100px;
+  border-radius: 30px;
 }
 
 /* .page-about .img-place {
