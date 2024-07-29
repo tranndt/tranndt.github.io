@@ -143,14 +143,39 @@ a:hover, a:active {
     position: relative;
     display: block;
     margin: 0 auto;
-    width: 100%;height: 100%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     z-index: 10;
 }
 
 .img-place > img {
-    width: 100%;height: auto;
+    width: 100%;
+    height: auto;
     /* max-width: 50%; */
+}
+
+.dev-icon {
+    width: 150px; /* Set fixed width */
+    height: 150px; /* Set fixed height to make it square */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Ensure items stack vertically */
+    /* border: 2px solid #f6f6f6; Add solid border */
+    padding: 10px; /* Add padding */
+    margin: 5px; /* Reduce margin to fit more items on each row */
+}
+
+.dev-icon > img {
+    max-width: 80px; /* Set max width for the image */
+    margin-bottom: 5px; /* Reduce margin between image and text */
+}
+
+.dev-icon > p {
+    font-size: auto;
+    text-align: center;
+    /* font-weight: 500; */
 }
 
 /* Overlay */

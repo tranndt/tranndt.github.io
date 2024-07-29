@@ -141,7 +141,7 @@
 }
 
 .page-about {
-  background-color: #fff;
+  background-color: #ffffff;
   width: 90%;
   margin: auto; /* Center horizontally if width is less than 100% */
   height: 90%;
@@ -337,50 +337,65 @@
 }
 
 
-.page-client {
-  background-color: #171925;
-  color: #fff;
+.page-social {
+  /* background-color: #171925;
+  color: #fff; */
 }
 
-.page-client .row .item {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  border-width: 0 1px 1px 1px;
-  border-style: solid;
-  border-color: #292e3b;
+.page-social .row .item {
+  padding-top: 30px;
+  /* padding-bottom: 10px; */
+  /* border-width: 0 1px 1px 1px; */
+  /* border-style: solid;
+  border-color: #292e3b; */
 }
 
-.page-client .row:last-child .item {
+.page-social .row:last-child .item {
   border-bottom: 0;
 }
 
-.page-client .row .item:first-child {
+.page-social .row .item:first-child {
   border-left: 0;
 }
 
-.page-client .row .item:last-child {
+.page-social .row .item:last-child {
   border-right: 0;
 }
 
-.page-client .img-place {
-  width: 100px;
-  height: 100px;
+.page-social .img-place {
+  width: 150px; /* Set fixed width */
+  height: 150px; /* Set fixed height to make it square */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Ensure items stack vertically */
+  /* border: 2px solid #f6f6f6; Add solid border */
+  padding: 10px; /* Add padding */
+  margin: 5px; /* Reduce margin to fit more items on each row */
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 
-.page-client .img-place:hover {
+.page-social .img-place:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.page-client .img-place img {
-  filter: grayscale(100%) brightness(2);
+.page-social .img-place img {
+  width: 100px;
+  height: 100px;
+  /* filter: grayscale(100%) brightness(2); */
 }
 
-.page-client .img-place:hover img {
+.page-social .img-place:hover img {
   filter: none;
+}
+
+.page-social .dev-icon > p {
+  font-size: auto;
+  text-align: center;
+  /* font-weight: 500; */
 }
 
 
@@ -450,6 +465,10 @@
 .page-contact {
   background-color: #fff;
 }
+
+/* #contact > div > div > a{
+  padding: 20px;
+} */
 
 .vg-maps {
   width: 100%;
