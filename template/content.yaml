@@ -1,166 +1,285 @@
-sections:
-  - name: "Home"
-    id: "home"
-  - name: "About"
-    id: "about"
-  - name: "Portfolio"
-    id: "portfolio"
-  - name: "Testimonials"
-    id: "testimonials"
-  - name: "Contact"
-    id: "contact"
-
-about:
-  name: Jase Tran (Nguyen Duy Thong Tran)
-  profession: Software Developer
-  description: >
-    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form but the majority have suffered alteration in some
-  details:
-    Age: 24
-    Location: Winnipeg, MB
-  image: "../assets/img/grad2.jpg"
-  cv_link: "https://umanitoba-my.sharepoint.com/:b:/g/personal/tranndt_myumanitoba_ca/EcQPquC4KbVEvIqPlyNhxpoBAFWOC23xMyulc7SgcGl1Qg?e=4Hjjyy"
-
-programming_languages:
-  - name: Python
-    level: 5
-  - name: Java
-    level: 5
-  - name: JavaScript
-    level: 4
-  - name: C/C++
-    level: 4
-  - name: SQL
-    level: 4
-  - name: HTML + CSS
-    level: 4
-  - name: R
-    level: 3
-
-experience:
-  - year: 01/2024 - 07/2024
-    position: Data Analyst
-    company: DataAnnotation, Remote
-    description: 
-      - "- Collaborated on training AI chatbots by designing and solving coding problems, ensuring the quality and performance of generated code. "
-      - "- Evaluated AI-produced code for correctness and efficiency, providing detailed feedback to improve chatbot capabilities. "
-      - "- Wrote and reviewed high-quality code snippets and explanations in various programming languages, including Python, JavaScript, and SQL. "
-  - year: 01/2022 - 12/2022
-    position: Data Analytics Developer
-    company: Manitoba Hydro, Winnipeg, MB
-    description:
-      - "- Led the development of a cloud-based machine learning solution on MS Azure to classify customer credit risk, replacing a legacy system. "
-      - "- Collaborated with stakeholders to design a solution with diverse input features, ensuring adherence to privacy and ethical AI standards. "
-      - "- Engineered and managed complex datasets using MS SSIS and MS SQL Server, performing advanced data integration operations. "
-      - "- Developed and optimized machine learning algorithms with a 0.90+ F1-score, integrating them with MS Azure DevOps for deployment, receiving high praise for improving debt prevention and recovery efforts." 
-
-  - year: 05/2021 - 08/2021
-    position: Undergraduate Research Assistant
-    company: University of Manitoba's Database and Data Mining Lab, Winnipeg, MB
-    description:
-      - "Recipient of the UM 2021 Undergraduate Summer Research Award. Supervised by Dr. Carson Leung, Lab Director." 
-      - "- Developed autoencoder neural network models for COVID-19 classification in a few-shot learning environment, leading to three IEEE journal publications. "
-      - "- Executed end-to-end ML development, including data analysis, engineering, algorithm development, and result evaluation, collaborating effectively with the research team. "
-      - "- Built and optimized high-complexity neural network models using PyTorch and managed experiments with Weights & Biases, outperforming other ML algorithms by up to 20% in sensitivity and F1 score." 
-      - "- Won 1st Prize in the Bison Transport's Nexus Data Challenge 2021, creating a 60-day window LSTM model for traffic imbalance forecasting with 0.90 accuracy and a sliding window algorithm to optimize traffic scheduling. "
-
-education:
-  - year: 07/2024
-    degree: IBM Full Stack Software Developer Professional Certificate
-    location: Remote
-    description:
-      - "- Completed a 14-course program in front-end, back-end, and cloud-native application development. Skills and technologies included Cloud foundations, Node.js, React, CI/CD, Docker, Kubernetes, OpenShift, NoSQL, Django ORM, Microservices, Serverless computing. "
-      - "- Developed a variety of projects including Node.js and React apps, containerized guestbook (Docker, Kubernetes), database app (Django ORM, Bootstrap), microservices, and serverless app, AI program (Cloud Foundry, NoSQL)"
-      
-  - year: 08/2018 - 06/2023
-    degree: "Bachelor of Computer Science (Honours), GPA: 4.05/4.50"
-    location: University of Manitoba, Winnipeg, MB
-    description:
-      - "- Completed a 4-year program with a focus on Data Science, Machine Learning, and Software Development."
-      - "- Achievements: ICM Academic Merit Scholarship (2019), ICM Leadership Excellence Award (2020), Undergraduate Research Award (2020), Undergraduate Summer Research Award (2021), International Undergraduate Student Scholarship (2021)."
+head:
+  title: Jase Tran's Profile
+  theme_class: theme-orange
+  home_bg_url: ../assets/img/bg_image_2.jpg
   
-professional_skills:
-  - name: Data Science
-    icon: pulse
-    description: >
-      Expertise in Data engineering, Data visualization, ML & DL algorithms, Statistical analysis, Academic research & writing. 
-  - name: Full Stack Development
-    icon: desktop
-    description: >
-      Comprehensive experience in Full-stack development, with an IBM Full Stack Developer Professional Certificate. 
-  - name: Software Development
-    icon: settings
-    description: >
-      Strong knowledge of Data structures, OO programming, Unit testing, Agile methodologies, Project management, CI/CD. 
-  - name: Database Management
-    icon: server
-    description: >
-      Proficiency in Data warehouses and Database management, ETL Processes, Advanced formulas, Pivot tables, Dashboard and Reporting tools. 
 
-portfolio_filters:
-  - "apps"
-  - "template"
-  - "ios"
-  - "ui-ux"
-  - "graphic"
-  - "wireframes"
+body:
+  sections:
+    - name: Home
+      id: home
+      icon: home
+    - name: About
+      id: about
+      icon: user
+    - name: Skills
+      id: skills
+      icon: medall
+    - name: Expertise
+      id: expertise
+      icon: star
+    - name: Timeline
+      id: timeline
+      icon: briefcase
+    - name: Projects
+      id: projects
+      icon: view-grid
+    - name: Latest
+      id: latest
+      icon: stats-up
+    - name: Testimonials  
+      id: testimonials
+      icon: quote-right
+    - name: Socials
+      id: social_media
+      icon: linkedin
+    - name: Contact
+      id: contact
+      icon: email
+      
 
-portfolio:
-  - title: "Mobile Travel App"
-    image: "path/to/work-1.jpg"
-    description: "Travel, Discovery"
-    categories: ["apps"]
-  - title: "Music App"
-    image: "path/to/work-2.jpg"
-    description: "Musics"
-    categories: ["template", "wireframes"]
-  - title: "Gaming Dashboard"
-    image: "path/to/work-3.jpg"
-    description: "Games, Streaming"
-    categories: ["apps", "ios"]
-  - title: "Drugs Delivery App"
-    image: "path/to/work-4.jpg"
-    description: "Health, Drugs"
-    categories: ["graphic", "ui-ux"]
-  - title: "Musics Discover"
-    image: "path/to/work-5.jpg"
-    description: "Musics, Dashboard"
-    categories: ["apps", "ios"]
-  - title: "Game Streaming"
-    image: "path/to/work-6.jpg"
-    description: "Games, Streaming"
-    categories: ["graphic", "ui-ux", "wireframes"]
+  home:
+    title: Home
+    subtitle: >
+      Hi, I'm <span style="font-weight: bold; color: var(--primary-color)">Jase Tran.</span>
+    description: >
+      Welcome To My <span style="font-weight: bold; color: var(--primary-color)">Portfolio Website</span>. Let's Start Exploring Together!
+    tagline: 
+      - Software Developer
+      - Data Analyst
+      - Full Stack Developer
 
-testimonials:
-  - name: "Satria Nugraha"
-    content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
-    position: "CEO Nutshell"
-    image: "path/to/testimonials_1.jpg"
-    profile_image: "path/to/testimonials_1.jpg"
-  - name: "Selena Arrini"
-    content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe natus expedita ab facilis ut, animi explicabo amet. Voluptatibus possimus iste enim, doloremque, fugiat accusamus nisi optio fugit ratione expedita harum?"
-    position: "CEO BigTree"
-    image: "path/to/testimonials_2.jpg"
-    profile_image: "path/to/testimonials_2.jpg"
 
-social_media:
-  - title: LinkedIn
+  about:
+    icon: user
+    title: About
+    subtitle: Who is Jase Tran?
+    prelude: A Software Developer, Data Analyst, and Full Stack Developer, among others!
+    description: >
+      I'm a curious and enthusiastic <span style="font-weight: medium; color: var(--primary-color)">Computer Science graduate from the University of Manitoba</span>, who believes in the power of data and software to make the world a better place. I've spent time as a <span style="font-weight: medium; color: var(--primary-color)">Data Analytics Developer at Manitoba Hydro</span>, where I got to flex my data engineering muscles and solve real-world problems with cutting-edge technology.
+      <br><br>
+      I'm also a <span style="font-weight: medium; color: var(--primary-color)">certified IBM Full Stack Software Developer</span>, which means I'm just as comfortable building the front end of a website as I am crunching numbers on the back end. Outside of work, I'm a tech explorer, always on the lookout for the next cool project. Ready to dive into the world of code and data with me? Let's make something amazing!
+    content:
+      - My full legal name is <b>Nguyen Duy Thong Tran 👩🏻‍💼🇻🇳</b>.
+      - I just recently celebrated my <b>24th birthday 🎉</b> in March 2024.
+      - My pronouns are <b>she/her 🏳️‍⚧️</b>.
+      - I'm currently based in <b>Winnipeg, MB, Canada 🇨🇦</b>.
+      - When I'm not coding, you can find me <b>enjoying the outdoors 🚴🏻‍♀️, playing sports 🏸, or petting my cat 🐱</b>.
+    image: "../assets/img/profile.jpg"
+    links:
+      - name: My Resume
+        icon: file
+        url: https://umanitoba-my.sharepoint.com/:b:/g/personal/tranndt_myumanitoba_ca/EZmAoX3gkQ5BmE5RqwzUsKsBKIt9prFZ_ozfMis5ZGpQ-w?e=rBhcgB
+      - name: Professional Badges
+        icon: medall
+        url: https://www.credly.com/users/jase-tran
+      - name: LinkedIn Profile
+        icon: linkedin
+        url: https://www.linkedin.com/in/tranndt/
+      - name: GitHub Projects
+        icon: github
+        url: https://github.com/tranndt
+
+
+  skills:
+    icon: medall
+    title: Skills
+    subtitle: What I'm Good At
+    content:
+      - name: Python
+        icon: python
+      - name: R
+        icon: r
+      - name: Java
+        icon: java
+      - name: C/C++
+        icon: cplusplus
+      - name: C#
+        icon: csharp
+      - name: Swift
+        icon: swift
+      - name: JavaScript
+        icon: javascript
+      - name: CSS
+        icon: css3
+      - name: HTML
+        icon: html5
+      - name: XML
+        icon: xml
+      - name: SQL
+        icon: azuresqldatabase
+
+  expertise:
+    icon: star
+    title: Expertise
+    subtitle: What I Do Best
+    content:
+      - name: Data Science
+        icon: pulse
+        description: >
+          With 4+ years professional and academic research experience, Data Science is my strongest suit.<br><br>My proficiency in Machine Learning, Data Analysis and Visualization enables me to develop data-driven solutions that address real-world challenges and transform complex data into actionable insights.
+      - name: Full Stack Development
+        icon: desktop
+        description: >
+          As a certified IBM Full Stack Software Developer, I have a strong understanding of all aspects of building dynamic web applications.<br><br>My expertise with web frameworks, container, microservices and serverless technologies allows me to craft seamless user experiences while ensuring robust back-end functionality.
+      - name: Software Development
+        icon: settings
+        description: >
+          With a deep passion for software development, I excel in Object-Oriented Programming (OOP), Data Structures, and Agile Methodologies.<br><br>My experience with Android and iOS development, as well as game development, has honed my skills in creating high-quality software solutions that meet user needs.
+      - name: Database Management
+        icon: server
+        description: >
+          I bring extensive experience in data warehouse management, ETL processes, and cloud storage solutions.<br><br>My ability to engineer and manage large-scale databases ensures that customer data is not only secure but also readily accessible for driving business insights.
+
+  timeline:
+    icon: briefcase
+    title: Timeline
+    subtitle: My Journey So Far
+    experience:
+      title: Experience
+      content:
+        - year: 01/2024 - 07/2024
+          position: Data Analyst
+          company: DataAnnotation, Remote
+          description: >
+            In my latest venture, I dove into prompt engineering and collaborated closely with coding GPTs, making them smarter and more efficient.<br><br>In fine-tuning AI-generated code, I also honed my skills in assessing and crafting Python, JavaScript, and SQL code that directly improved GPT models.
+        - year: 01/2022 - 12/2022
+          position: Data Analytics Developer
+          company: Manitoba Hydro, Winnipeg, MB
+          description: >
+            A proud moment in my journey where I got the opportunity to apply my Data Science expertise to build highly accurate ML-models for customer credit classification.<br><br>Working with massive datasets and building a cloud AI-driven solution that replaced an outdated system was a challenging but incredibly rewarding experience.
+        - year: 05/2021 - 08/2021
+          position: Undergraduate Research Assistant
+          company: University of Manitoba's Database and Data Mining Lab, Winnipeg, MB
+          description: >
+            As part of my Summer Undergraduate Research award, I delved into the tasks of developing complex autoencoder neural networks that can predict COVID-19 based on early blood test results and in the absence of large training datasets.<br><br>Leading a full-cycle ML project that yielded meaningful results, multiple published research and additionally, winning first place in the Bison Transport's Nexus Data Challenge was altogether an unforgettable experience.
+    education:
+      title: Education
+      content:
+      - year: 08/2024
+        degree: IBM Full Stack Software Developer Professional Certificate
+        institution: Coursera
+        description: >
+          I immersed myself in full-stack development, mastering everything from Node.js, React, and Express to Docker and Kubernetes.<br><br>Gaining knowledge in building real-world projects, like a dealership reviews website and containerized apps, really expanded my skillset and makes the journey ahead incredibly exciting.
+      - year: 08/2018 - 06/2023
+        degree: "Bachelor of Computer Science (Honours Co-op), GPA: 4.05/4.50"
+        institution: University of Manitoba, Winnipeg, MB
+        description: >
+          Completed a 5-year Co-op program with excellent grades and a strong foundation on Data Science, Machine Learning, and Software Development.<br><br>Was recognized for academic excellence, community involvement and leadership, including ICM Leadership Excellence Award (2020), Undergraduate Summer Research Award (2021), International Undergraduate Student Scholarship (2021), Dean's First Class Honors List (2023).
+
+  projects:
+    icon: view-grid
+    title: Projects
+    subtitle: A Selection Of My Work
+    content:
+    - name: "RSNA Cancer Detection"
+      description: Computer vision models assisting in the early detection of breast cancer using radiology images.
+      url: "https://github.com/tranndt/ml-comp7944-RSNACancerDetection"
+      image: "../assets/img/projects/rsna.jpg"
+      tags:
+        - Python
+        - OpenCV
+    - name: "Covid 19 Predictive Autoencoders"
+      description: Autoencoder neural networks classifying COVID-19 patients with excellent accuracy and reliability.
+      url: "https://github.com/tranndt/ml-usra2021-Covid19AutoEncoders"
+      image: "../assets/img/projects/cpa.jpg"
+      tags:
+        - Machine Learning
+        - Data Analysis
+    - name: "Focus Timer"
+      description: "Web-based time tracking app designed to help users maintain focus and productivity."
+      url: "https://github.com/tranndt/web-comp3010-FocusTime"
+      image: "../assets/img/projects/focustimer.png"
+      tags:
+        - Web Development
+    - name: "Winnipeg Transit Forecast"
+      description: "Regression models predicting transit on-time performance, improving scheduling accuracy."
+      url: "https://github.com/tranndt/ml-comp4710-WPGTransitOTP"
+      image: "../assets/img/projects/wpg_transit.jpg"
+      tags:
+        - Machine Learning
+        - Data Analysis
+    - name: "Game Jam 2023: Frog Splash"
+      description: "2D adventure maze game, designed in 48 hours."
+      url: "https://github.com/tranndt/dev-cssagamejam2023-FrogSplash"
+      image: "../assets/img/projects/frog.png"
+      tags:
+        - Game Development
+  
+  latest:
+    icon: stats-up
+    title: Latest
+    subtitle: What I Have Been Up To
+    content:
+      - name: "Completed IBM Full Stack Software Developer Professional Certificate"
+        date: "08/2024"
+        description: "Mastered full-stack development, building real-world projects like a dealership reviews website and containerized apps."
+        image: "../assets/img/latest/fullstack_cert.jpeg"
+        url: "https://coursera.org/share/0d590d8a5f7c0c693f8b34e768bea62c"
+      - name: "Completed IBM Full Stack Application Development Capstone Project"
+        date: "08/2024"
+        description: "Completed the capstone project by building and deploying a dealership reviews website on Docker and Kubernetes."
+        image: "../assets/img/latest/capstone.jpeg"
+        url: "https://coursera.org/share/4db19c8dc4e12f2a01d74e4bc252d5a0"
+      - name: "Graduated From The University of Manitoba"
+        date: "06/2023"
+        description: "Graduated with a Bachelor of Computer Science (Honours Co-op) with an excellent GPA of 4.05/4.50."
+        image: "../assets/img/grad1.jpg"
+        url: ""
+
+  testimonials:
+    icon: quote-right
+    title: Testimonials
+    subtitle: A Few Kind Words From My Colleagues
+    content:
+      - name: "Kevin K."
+        quote: >
+          Working with Jase was an absolute pleasure. Her ability to turn complex data into actionable insights truly sets her apart. Working with her, she didn't just solve problems — she anticipated them, using her expertise in data analytics to drive real results. Her passion for technology is contagious, and she's always pushing the boundaries of what's possible.
+        position: "Colleague"
+        image: "../assets/img/friend1.jpg"
+        url: ""
+      - name: "Sharon D."
+        quote: >
+          Jase is the kind of developer every team needs. Her full-stack skills are top-notch, but what really impressed me was her drive to keep learning and improving. Whether it was building a complex app from scratch or optimizing existing processes, Jase always approached each challenge with enthusiasm and creativity. Her work consistently exceeded expectations, and she was a key contributor to our success.
+        position: "Colleague"
+        image: "../assets/img/friend2.jpg"
+        url: ""
+
+  social_media:
     icon: linkedin
-    url: https://www.linkedin.com/in/jase-tran/
-  - title: GitHub
-    icon: github
-    url: https://github.com/tranndt
-  - title: Kaggle
-    icon: kaggle
-    url: https://www.kaggle.com/jasetran
-  - title: LeetCode
-    icon: leetcode
-    url: https://leetcode.com/jasetran/
-  - title: IEEE Xplore
-    icon: ieee
-    url: https://ieeexplore.ieee.org/author/
+    title: Socials
+    subtitle: You Can Find Me On
+    content:
+    - name: LinkedIn
+      icon: linkedin
+      url: https://www.linkedin.com/in/tranndt/
+    - name: GitHub
+      icon: github
+      url: https://github.com/tranndt
+    - name: Coursera
+      icon: coursera
+      url: https://www.coursera.org/learner/tranndt
+    - name: Credly
+      icon: credly
+      url: https://www.credly.com/users/jase-tran
+    - name: Kaggle
+      icon: kaggle
+      url: https://www.kaggle.com/duythongvt
+    - name: LeetCode
+      icon: leetcode
+      url: https://leetcode.com/u/duythongvt1/
+    - name: IEEE Xplore
+      icon: ieee
+      url: https://ieeexplore.ieee.org/author/37089023347
 
-contact:
-  email: duythongvt1@gmail.com
-  phone: "+1 431-335-4421"
+footer:
+  contact:
+    icon: email
+    title: Contact
+    subtitle: Let's Get In Touch
+    description: >
+      Interested in working together 🤝? Have a question about my work 👩🏻‍💻? <br><br><span style="font-weight: medium; color: var(--primary-color)">Feel free to reach out—I'd love to hear from you 😊!</span>
+    email: duythongvt1@gmail.com
+
+
 

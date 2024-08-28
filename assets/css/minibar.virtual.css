@@ -41,10 +41,10 @@
     position: fixed;
     display: none;
     top: 70px;
-    left: 0;
+    right: 0;
     width: 100%;
     height: calc(100% - 70px);
-    background-color: #2C2D34;
+    background-color: #252525c0;
     overflow-y: auto;
     z-index: 99;
 }

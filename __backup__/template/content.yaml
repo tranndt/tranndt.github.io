@@ -1,0 +1,166 @@
+sections:
+  - name: "Home"
+    id: "home"
+  - name: "About"
+    id: "about"
+  - name: "Portfolio"
+    id: "portfolio"
+  - name: "Testimonials"
+    id: "testimonials"
+  - name: "Contact"
+    id: "contact"
+
+about:
+  name: Jase Tran (Nguyen Duy Thong Tran)
+  profession: Software Developer
+  description: >
+    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form but the majority have suffered alteration in some
+  details:
+    Age: 24
+    Location: Winnipeg, MB
+  image: "../assets/img/grad2.jpg"
+  cv_link: "https://umanitoba-my.sharepoint.com/:b:/g/personal/tranndt_myumanitoba_ca/EcQPquC4KbVEvIqPlyNhxpoBAFWOC23xMyulc7SgcGl1Qg?e=4Hjjyy"
+
+programming_languages:
+  - name: Python
+    level: 5
+  - name: Java
+    level: 5
+  - name: JavaScript
+    level: 4
+  - name: C/C++
+    level: 4
+  - name: SQL
+    level: 4
+  - name: HTML + CSS
+    level: 4
+  - name: R
+    level: 3
+
+experience:
+  - year: 01/2024 - 07/2024
+    position: Data Analyst
+    company: DataAnnotation, Remote
+    description: 
+      - "- Collaborated on training AI chatbots by designing and solving coding problems, ensuring the quality and performance of generated code. "
+      - "- Evaluated AI-produced code for correctness and efficiency, providing detailed feedback to improve chatbot capabilities. "
+      - "- Wrote and reviewed high-quality code snippets and explanations in various programming languages, including Python, JavaScript, and SQL. "
+  - year: 01/2022 - 12/2022
+    position: Data Analytics Developer
+    company: Manitoba Hydro, Winnipeg, MB
+    description:
+      - "- Led the development of a cloud-based machine learning solution on MS Azure to classify customer credit risk, replacing a legacy system. "
+      - "- Collaborated with stakeholders to design a solution with diverse input features, ensuring adherence to privacy and ethical AI standards. "
+      - "- Engineered and managed complex datasets using MS SSIS and MS SQL Server, performing advanced data integration operations. "
+      - "- Developed and optimized machine learning algorithms with a 0.90+ F1-score, integrating them with MS Azure DevOps for deployment, receiving high praise for improving debt prevention and recovery efforts." 
+
+  - year: 05/2021 - 08/2021
+    position: Undergraduate Research Assistant
+    company: University of Manitoba's Database and Data Mining Lab, Winnipeg, MB
+    description:
+      - "Recipient of the UM 2021 Undergraduate Summer Research Award. Supervised by Dr. Carson Leung, Lab Director." 
+      - "- Developed autoencoder neural network models for COVID-19 classification in a few-shot learning environment, leading to three IEEE journal publications. "
+      - "- Executed end-to-end ML development, including data analysis, engineering, algorithm development, and result evaluation, collaborating effectively with the research team. "
+      - "- Built and optimized high-complexity neural network models using PyTorch and managed experiments with Weights & Biases, outperforming other ML algorithms by up to 20% in sensitivity and F1 score." 
+      - "- Won 1st Prize in the Bison Transport's Nexus Data Challenge 2021, creating a 60-day window LSTM model for traffic imbalance forecasting with 0.90 accuracy and a sliding window algorithm to optimize traffic scheduling. "
+
+education:
+  - year: 07/2024
+    degree: IBM Full Stack Software Developer Professional Certificate
+    location: Remote
+    description:
+      - "- Completed a 14-course program in front-end, back-end, and cloud-native application development. Skills and technologies included Cloud foundations, Node.js, React, CI/CD, Docker, Kubernetes, OpenShift, NoSQL, Django ORM, Microservices, Serverless computing. "
+      - "- Developed a variety of projects including Node.js and React apps, containerized guestbook (Docker, Kubernetes), database app (Django ORM, Bootstrap), microservices, and serverless app, AI program (Cloud Foundry, NoSQL)"
+      
+  - year: 08/2018 - 06/2023
+    degree: "Bachelor of Computer Science (Honours), GPA: 4.05/4.50"
+    location: University of Manitoba, Winnipeg, MB
+    description:
+      - "- Completed a 4-year program with a focus on Data Science, Machine Learning, and Software Development."
+      - "- Achievements: ICM Academic Merit Scholarship (2019), ICM Leadership Excellence Award (2020), Undergraduate Research Award (2020), Undergraduate Summer Research Award (2021), International Undergraduate Student Scholarship (2021)."
+  
+professional_skills:
+  - name: Data Science
+    icon: pulse
+    description: >
+      Expertise in Data engineering, Data visualization, ML & DL algorithms, Statistical analysis, Academic research & writing. 
+  - name: Full Stack Development
+    icon: desktop
+    description: >
+      Comprehensive experience in Full-stack development, with an IBM Full Stack Developer Professional Certificate. 
+  - name: Software Development
+    icon: settings
+    description: >
+      Strong knowledge of Data structures, OO programming, Unit testing, Agile methodologies, Project management, CI/CD. 
+  - name: Database Management
+    icon: server
+    description: >
+      Proficiency in Data warehouses and Database management, ETL Processes, Advanced formulas, Pivot tables, Dashboard and Reporting tools. 
+
+portfolio_filters:
+  - "apps"
+  - "template"
+  - "ios"
+  - "ui-ux"
+  - "graphic"
+  - "wireframes"
+
+portfolio:
+  - title: "Mobile Travel App"
+    image: "path/to/work-1.jpg"
+    description: "Travel, Discovery"
+    categories: ["apps"]
+  - title: "Music App"
+    image: "path/to/work-2.jpg"
+    description: "Musics"
+    categories: ["template", "wireframes"]
+  - title: "Gaming Dashboard"
+    image: "path/to/work-3.jpg"
+    description: "Games, Streaming"
+    categories: ["apps", "ios"]
+  - title: "Drugs Delivery App"
+    image: "path/to/work-4.jpg"
+    description: "Health, Drugs"
+    categories: ["graphic", "ui-ux"]
+  - title: "Musics Discover"
+    image: "path/to/work-5.jpg"
+    description: "Musics, Dashboard"
+    categories: ["apps", "ios"]
+  - title: "Game Streaming"
+    image: "path/to/work-6.jpg"
+    description: "Games, Streaming"
+    categories: ["graphic", "ui-ux", "wireframes"]
+
+testimonials:
+  - name: "Satria Nugraha"
+    content: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered."
+    position: "CEO Nutshell"
+    image: "path/to/testimonials_1.jpg"
+    profile_image: "path/to/testimonials_1.jpg"
+  - name: "Selena Arrini"
+    content: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe natus expedita ab facilis ut, animi explicabo amet. Voluptatibus possimus iste enim, doloremque, fugiat accusamus nisi optio fugit ratione expedita harum?"
+    position: "CEO BigTree"
+    image: "path/to/testimonials_2.jpg"
+    profile_image: "path/to/testimonials_2.jpg"
+
+social_media:
+  - title: LinkedIn
+    icon: linkedin
+    url: https://www.linkedin.com/in/jase-tran/
+  - title: GitHub
+    icon: github
+    url: https://github.com/tranndt
+  - title: Kaggle
+    icon: kaggle
+    url: https://www.kaggle.com/jasetran
+  - title: LeetCode
+    icon: leetcode
+    url: https://leetcode.com/jasetran/
+  - title: IEEE Xplore
+    icon: ieee
+    url: https://ieeexplore.ieee.org/author/
+
+contact:
+  email: duythongvt1@gmail.com
+  phone: "+1 431-335-4421"
+
